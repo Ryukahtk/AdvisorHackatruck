@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB003BD22CBFB2C009FC23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB003BC22CBFB2C009FC23B /* AppDelegate.swift */; };
+		3FB003BF22CBFB2C009FC23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB003BE22CBFB2C009FC23B /* ViewController.swift */; };
+		3FB003C222CBFB2C009FC23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB003C022CBFB2C009FC23B /* Main.storyboard */; };
+		3FB003C422CBFB2C009FC23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB003C322CBFB2C009FC23B /* Assets.xcassets */; };
+		3FB003C722CBFB2C009FC23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB003C522CBFB2C009FC23B /* LaunchScreen.storyboard */; };
+		3FB003D222CBFB2C009FC23B /* AdvisorHackatruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB003D122CBFB2C009FC23B /* AdvisorHackatruckTests.swift */; };
+		3FB003DD22CBFB2D009FC23B /* AdvisorHackatruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB003DC22CBFB2D009FC23B /* AdvisorHackatruckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB003CE22CBFB2C009FC23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB003B122CBFB2C009FC23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB003B822CBFB2C009FC23B;
+			remoteInfo = AdvisorHackatruck;
+		};
+		3FB003D922CBFB2D009FC23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB003B122CBFB2C009FC23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB003B822CBFB2C009FC23B;
+			remoteInfo = AdvisorHackatruck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB003B922CBFB2C009FC23B /* AdvisorHackatruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvisorHackatruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB003BC22CBFB2C009FC23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB003BE22CBFB2C009FC23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB003C122CBFB2C009FC23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB003C322CBFB2C009FC23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB003C622CBFB2C009FC23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB003C822CBFB2C009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB003CD22CBFB2C009FC23B /* AdvisorHackatruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvisorHackatruckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB003D122CBFB2C009FC23B /* AdvisorHackatruckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorHackatruckTests.swift; sourceTree = "<group>"; };
+		3FB003D322CBFB2C009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB003D822CBFB2D009FC23B /* AdvisorHackatruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvisorHackatruckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB003DC22CBFB2D009FC23B /* AdvisorHackatruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorHackatruckUITests.swift; sourceTree = "<group>"; };
+		3FB003DE22CBFB2D009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB003B622CBFB2C009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003CA22CBFB2C009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003D522CBFB2D009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB003B022CBFB2C009FC23B = {
+			isa = PBXGroup;
+			children = (
+				3FB003BB22CBFB2C009FC23B /* AdvisorHackatruck */,
+				3FB003D022CBFB2C009FC23B /* AdvisorHackatruckTests */,
+				3FB003DB22CBFB2D009FC23B /* AdvisorHackatruckUITests */,
+				3FB003BA22CBFB2C009FC23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB003BA22CBFB2C009FC23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB003B922CBFB2C009FC23B /* AdvisorHackatruck.app */,
+				3FB003CD22CBFB2C009FC23B /* AdvisorHackatruckTests.xctest */,
+				3FB003D822CBFB2D009FC23B /* AdvisorHackatruckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB003BB22CBFB2C009FC23B /* AdvisorHackatruck */ = {
+			isa = PBXGroup;
+			children = (
+				3FB003BC22CBFB2C009FC23B /* AppDelegate.swift */,
+				3FB003BE22CBFB2C009FC23B /* ViewController.swift */,
+				3FB003C022CBFB2C009FC23B /* Main.storyboard */,
+				3FB003C322CBFB2C009FC23B /* Assets.xcassets */,
+				3FB003C522CBFB2C009FC23B /* LaunchScreen.storyboard */,
+				3FB003C822CBFB2C009FC23B /* Info.plist */,
+			);
+			path = AdvisorHackatruck;
+			sourceTree = "<group>";
+		};
+		3FB003D022CBFB2C009FC23B /* AdvisorHackatruckTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB003D122CBFB2C009FC23B /* AdvisorHackatruckTests.swift */,
+				3FB003D322CBFB2C009FC23B /* Info.plist */,
+			);
+			path = AdvisorHackatruckTests;
+			sourceTree = "<group>";
+		};
+		3FB003DB22CBFB2D009FC23B /* AdvisorHackatruckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB003DC22CBFB2D009FC23B /* AdvisorHackatruckUITests.swift */,
+				3FB003DE22CBFB2D009FC23B /* Info.plist */,
+			);
+			path = AdvisorHackatruckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB003B822CBFB2C009FC23B /* AdvisorHackatruck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB003E122CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruck" */;
+			buildPhases = (
+				3FB003B522CBFB2C009FC23B /* Sources */,
+				3FB003B622CBFB2C009FC23B /* Frameworks */,
+				3FB003B722CBFB2C009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvisorHackatruck;
+			productName = AdvisorHackatruck;
+			productReference = 3FB003B922CBFB2C009FC23B /* AdvisorHackatruck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB003CC22CBFB2C009FC23B /* AdvisorHackatruckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB003E422CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruckTests" */;
+			buildPhases = (
+				3FB003C922CBFB2C009FC23B /* Sources */,
+				3FB003CA22CBFB2C009FC23B /* Frameworks */,
+				3FB003CB22CBFB2C009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB003CF22CBFB2C009FC23B /* PBXTargetDependency */,
+			);
+			name = AdvisorHackatruckTests;
+			productName = AdvisorHackatruckTests;
+			productReference = 3FB003CD22CBFB2C009FC23B /* AdvisorHackatruckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB003D722CBFB2D009FC23B /* AdvisorHackatruckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB003E722CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruckUITests" */;
+			buildPhases = (
+				3FB003D422CBFB2D009FC23B /* Sources */,
+				3FB003D522CBFB2D009FC23B /* Frameworks */,
+				3FB003D622CBFB2D009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB003DA22CBFB2D009FC23B /* PBXTargetDependency */,
+			);
+			name = AdvisorHackatruckUITests;
+			productName = AdvisorHackatruckUITests;
+			productReference = 3FB003D822CBFB2D009FC23B /* AdvisorHackatruckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB003B122CBFB2C009FC23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FB003B822CBFB2C009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FB003CC22CBFB2C009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB003B822CBFB2C009FC23B;
+					};
+					3FB003D722CBFB2D009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB003B822CBFB2C009FC23B;
+					};
+				};
+			};
+			buildConfigurationList = 3FB003B422CBFB2C009FC23B /* Build configuration list for PBXProject "AdvisorHackatruck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB003B022CBFB2C009FC23B;
+			productRefGroup = 3FB003BA22CBFB2C009FC23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB003B822CBFB2C009FC23B /* AdvisorHackatruck */,
+				3FB003CC22CBFB2C009FC23B /* AdvisorHackatruckTests */,
+				3FB003D722CBFB2D009FC23B /* AdvisorHackatruckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB003B722CBFB2C009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB003C722CBFB2C009FC23B /* LaunchScreen.storyboard in Resources */,
+				3FB003C422CBFB2C009FC23B /* Assets.xcassets in Resources */,
+				3FB003C222CBFB2C009FC23B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003CB22CBFB2C009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003D622CBFB2D009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB003B522CBFB2C009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB003BF22CBFB2C009FC23B /* ViewController.swift in Sources */,
+				3FB003BD22CBFB2C009FC23B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003C922CBFB2C009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB003D222CBFB2C009FC23B /* AdvisorHackatruckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB003D422CBFB2D009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB003DD22CBFB2D009FC23B /* AdvisorHackatruckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB003CF22CBFB2C009FC23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB003B822CBFB2C009FC23B /* AdvisorHackatruck */;
+			targetProxy = 3FB003CE22CBFB2C009FC23B /* PBXContainerItemProxy */;
+		};
+		3FB003DA22CBFB2D009FC23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB003B822CBFB2C009FC23B /* AdvisorHackatruck */;
+			targetProxy = 3FB003D922CBFB2D009FC23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB003C022CBFB2C009FC23B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB003C122CBFB2C009FC23B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB003C522CBFB2C009FC23B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB003C622CBFB2C009FC23B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB003DF22CBFB2D009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB003E022CBFB2D009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB003E222CBFB2D009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvisorHackatruck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FB003E322CBFB2D009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdvisorHackatruck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FB003E522CBFB2D009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvisorHackatruckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvisorHackatruck.app/AdvisorHackatruck";
+			};
+			name = Debug;
+		};
+		3FB003E622CBFB2D009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdvisorHackatruckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvisorHackatruck.app/AdvisorHackatruck";
+			};
+			name = Release;
+		};
+		3FB003E822CBFB2D009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AdvisorHackatruckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdvisorHackatruck;
+			};
+			name = Debug;
+		};
+		3FB003E922CBFB2D009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AdvisorHackatruckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.AdvisorHackatruckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdvisorHackatruck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB003B422CBFB2C009FC23B /* Build configuration list for PBXProject "AdvisorHackatruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB003DF22CBFB2D009FC23B /* Debug */,
+				3FB003E022CBFB2D009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB003E122CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB003E222CBFB2D009FC23B /* Debug */,
+				3FB003E322CBFB2D009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FB003E422CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB003E522CBFB2D009FC23B /* Debug */,
+				3FB003E622CBFB2D009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FB003E722CBFB2D009FC23B /* Build configuration list for PBXNativeTarget "AdvisorHackatruckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB003E822CBFB2D009FC23B /* Debug */,
+				3FB003E922CBFB2D009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB003B122CBFB2C009FC23B /* Project object */;
+}
